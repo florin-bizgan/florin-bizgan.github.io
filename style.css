@@ -7,8 +7,15 @@ body {
   background-color: grey;
 }
 
-h1:hover {
-  font-size: 140px;
+a:hover {
+  color: wheat;
+  cursor: pointer;
 }
 
+a:active,
+a:visited,
+a:link {
+  color: black;
+  text-decoration: none;
+}
 
